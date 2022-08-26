@@ -1,4 +1,4 @@
-# Test
+# SER-LMS-SqueezeNet
 
 This repository is created to provide supplementary materials for XX paper.
 
