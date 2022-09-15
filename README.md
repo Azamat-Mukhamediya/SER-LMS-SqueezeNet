@@ -21,7 +21,7 @@ Datasets can be downloaded or requested from EmoDB(http://emodb.bilderbar.info/)
 ## Usage
 
 ```shell
-python main.py --data emodb --data_root dataset/EMODB/wav --k 100 --seg_len 16000 --win_len 255 --hop_len 32 --n_mel 128 --batch_size 16 --epochs 150
+python main.py --data emodb --data_root dataset/EMODB/wav --k 10 --seg_len 16000 --win_len 255 --hop_len 32 --n_mel 128 --batch_size 16 --epochs 150
 ```
 
 ## Citation
