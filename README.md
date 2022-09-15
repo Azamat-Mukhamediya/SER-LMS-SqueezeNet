@@ -2,7 +2,7 @@
 
 ![Python 3.7.11](https://img.shields.io/badge/python-3.7.11-green.svg?style=plastic) ![PyTorch 1.9.1](https://img.shields.io/badge/pytorch-1.9.1-green.svg?style=plastic)
 
-The implementation of the paper: "[On the Effect of Log Mel Spectrogram Parameter Tuning for Deep Learning-based Speech Emotion Recognition]".
+The implementation of the paper: "[On the Effect of Log-Mel Spectrogram Parameter Tuning for Deep Learning-based Speech Emotion Recognition]".
 
 ## Requirements
 
