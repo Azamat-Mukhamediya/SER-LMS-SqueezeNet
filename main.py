@@ -15,7 +15,7 @@ from utils.preprocessing import get_audio_segmentation, SERDataset
 from utils.load import get_data
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-device = 'cpu'
+
 print(device)
 
 seed = 42
