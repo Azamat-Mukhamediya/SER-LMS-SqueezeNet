@@ -47,16 +47,6 @@ opt = parser.parse_args()
 
 def main():
 
-    # db = opt.data  # dataset: emodb / iemocap / savee
-    # folder_path = opt.data_root
-    # k = opt.k  # number of shuffles and splits
-    # seg_len = opt.seg_len  # segmentaion length in samples (16k = 1s)
-    # win_len = opt.win_len  # window length
-    # hop_len = opt.hop_len  # hop length
-    # n_mel = opt.n_mel  # number of mel bins
-    # epochs = opt.epochs  # number of epochs
-    # batch_size = opt.batch_size  # batch size
-
     data, num_classes = get_data(opt.data, opt.data_root)
 
     segmented_data, segmented_labels = get_audio_segmentation(data=data,
