@@ -1,0 +1,6 @@
+librosa==0.8.1
+numba==0.54.1
+pandas
+scikit-learn==0.22.1
+torch==1.9.1
+torchvision==0.10.1
