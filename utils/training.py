@@ -64,7 +64,7 @@ def train(dataloader, model, loss_fn, optimizer, device):
     return train_loss, train_acc
 
 
-def evaluate(dataloader, model, loss_fn, device):
+def evaluate(dataloader, model, loss_fn, device, type):
     size = len(dataloader.dataset)
     num_batches = len(dataloader)
     model.eval()
@@ -82,6 +82,6 @@ def evaluate(dataloader, model, loss_fn, device):
     correct /= size
 
     print(
-        f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
+        f"{type} Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
     test_acc = 100*correct
     return test_loss, test_acc
